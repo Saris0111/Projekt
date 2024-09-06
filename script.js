@@ -1,2 +1,2 @@
-// Placeholder for future interactivity
-console.log('Website loaded successfully');
+// Simple script to confirm page load
+console.log("Page loaded successfully");

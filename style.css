@@ -5,110 +5,82 @@
     box-sizing: border-box;
 }
 
-/* Styling the Hero Section */
-header {
-    background-color: #f2f3f5;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Top Banner */
+.top-banner {
+    background-color: #DFC5A2;
     text-align: center;
     padding: 50px;
 }
 
-.hero img {
-    width: 150px;
-    border-radius: 50%;
-}
-
-.hero h1 {
+.top-banner h1 {
     font-size: 2.5rem;
-    color: #00303f;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin: 20px 0;
+    color: #53473B;
 }
 
 .cta-btn {
-    background-color: #ff7f11;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #53473B;
+    color: #DFC5A2;
     padding: 10px 20px;
-    color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
-/* About Section */
-#about {
-    background-color: #fff;
+.cta-btn:hover {
+    background-color: #40362E;
+}
+
+/* Blog Content */
+.content {
     padding: 50px;
-    display: flex;
-    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.about-container {
-    display: flex;
-    align-items: center;
-}
-
-.about-container img {
-    width: 200px;
-    margin-right: 20px;
-}
-
-.about-text h2 {
-    color: #00303f;
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-/* Course Features Section */
-#features {
-    background-color: #f2f3f5;
-    padding: 50px;
-    text-align: center;
-}
-
-#features h2 {
+.content h2 {
+    color: #53473B;
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-#features ul {
-    list-style: none;
+.content ol {
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
-#features li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
-
-/* Pricing Section */
-#pricing {
-    background-color: #fff;
-    text-align: center;
-    padding: 50px;
-}
-
-#pricing h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.cta-btn {
-    background-color: #ff7f11;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+.content a {
+    color: #53473B;
+    text-decoration: underline;
 }
 
 /* Footer */
-footer {
-    background-color: #00303f;
-    color: white;
-    padding: 20px;
+.site-footer {
+    background-color: #53473B;
+    color: #DFC5A2;
     text-align: center;
+    padding: 20px;
 }
 
-footer a {
-    color: #ff7f11;
+.site-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.site-footer ul li {
+    margin: 10px 0;
+}
+
+.site-footer ul a {
+    color: #DFC5A2;
     text-decoration: none;
+}
+
+.site-footer ul a:hover {
+    text-decoration: underline;
 }

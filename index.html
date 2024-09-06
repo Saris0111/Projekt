@@ -3,54 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canva Grundkurs - Sara Gyllestrand</title>
+    <title>Skapa Taggar i Tag Manager & GA4 - Enkelt Steg för Steg</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header>
-        <div class="hero">
-            <img src="Sara Svart vit utan bakgrund.jpg" alt="Sara Gyllestrand">
-            <h1>Lär dig Canva – Designa enkelt och professionellt</h1>
-            <p>En grundkurs för nybörjare av Sara Gyllestrand – expert inom visuell marknadskommunikation.</p>
-            <a href="#pricing" class="cta-btn">Börja din resa nu</a>
-        </div>
+    <!-- Top Banner -->
+    <header class="top-banner">
+        <h1>Hur man enkelt skapar taggar i Tag Manager och kopplar dem till GA4</h1>
+        <a href="https://saragyllestrand.se" class="cta-btn">Besök Sara Gyllestrand</a>
     </header>
 
-    <!-- About Sara Section -->
-    <section id="about">
-        <div class="about-container">
-            <img src="Gräddvit Kvinna Sommarrea Facebook Inlägg-2.png" alt="Sara Gyllestrand">
-            <div class="about-text">
-                <h2>Om mig</h2>
-                <p>Jag är Sara Gyllestrand, en specialist inom visuell och strategisk marknadskommunikation. Med över X års erfarenhet hjälper jag dig att snabbt och enkelt bemästra Canva och skapa fantastiska designprojekt.</p>
-                <p>Vill du ta ditt varumärke till nästa nivå? Det här är kursen för dig!</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Course Features Section -->
-    <section id="features">
-        <h2>Vad du kommer att lära dig</h2>
-        <ul>
-            <li>Lär dig grunderna i Canva på under X timmar</li>
-            <li>Skapa enkla och snygga sociala medier inlägg</li>
-            <li>Bygg ditt varumärke med lättanvända mallar</li>
-            <li>Perfekt för småföretagare och kreativa individer</li>
-        </ul>
-    </section>
-
-    <!-- Pricing & Sign Up Section -->
-    <section id="pricing">
-        <h2>Köp kursen nu</h2>
-        <p>Få tillgång till allt innehåll för bara X kr!</p>
-        <a href="#" class="cta-btn">Köp kursen nu</a>
+    <!-- Blog Content -->
+    <section class="content">
+        <article>
+            <h2>Steg för Steg Guide</h2>
+            <p>Att använda Google Tag Manager och koppla ihop det med GA4 är enkelt när man följer dessa steg:</p>
+            <ol>
+                <li>Skapa ett konto i Google Tag Manager och skapa en ny container.</li>
+                <li>Välj vilken typ av tagg du vill använda (t.ex. Google Analytics 4).</li>
+                <li>Konfigurera din tagg genom att ange ditt GA4 Measurement ID.</li>
+                <li>Lägg till en aktiverare (t.ex. "All Pages" om du vill spåra alla sidvisningar).</li>
+                <li>Förhandsgranska och publicera dina taggar.</li>
+                <li>Öppna Google Analytics 4 och bekräfta att dina händelser spåras korrekt.</li>
+            </ol>
+            <p>För mer information om GA4 kan du läsa vidare på <a href="https://support.google.com/analytics/answer/9304153">Google Analytics 4 dokumentationen</a>.</p>
+        </article>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>Följ mig på sociala medier:</p>
-        <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+    <footer class="site-footer">
+        <p>Fler resurser:</p>
+        <ul>
+            <li><a href="https://marketingplatform.google.com/about/tag-manager/">Google Tag Manager</a></li>
+            <li><a href="https://support.google.com/analytics/answer/9304153">Google Analytics 4</a></li>
+        </ul>
+        <p>&copy; 2024 Sara Gyllestrand</p>
     </footer>
 
     <script src="script.js"></script>
